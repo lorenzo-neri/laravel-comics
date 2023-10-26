@@ -20,7 +20,7 @@
 
 <body>
 
-    @include('layout.header')
+    @include('layout.partials.header')
 
     <main>
         @yield('content')
