@@ -1,0 +1,39 @@
+#jumbotron {
+
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+#current_series {
+    background-color: $dc-black;
+    position: relative;
+
+    .section_comics {
+        position: absolute;
+        top: -30px;
+
+    }
+}
+
+.blue_ticket {
+    color: white;
+    background-color: $dc-primary;
+    padding: .5rem 1.5rem;
+    font-weight: 800;
+    scale: 1.1;
+}
+
+#sections_bar {
+    background-color: $dc-primary;
+
+    img {
+        width: 3rem;
+    }
+
+    #title {
+        font-size: .8rem;
+    }
+}

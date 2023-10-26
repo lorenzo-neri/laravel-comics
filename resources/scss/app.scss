@@ -7,5 +7,10 @@ $dc-primary: #0383f9;
 $dc-dark: #313031;
 $dc-secondary: #929292;
 
-@import './partials/footer.scss';
+//home
+@import './partials/home.scss';
+//cards
 @import './partials/card.scss';
+
+//footer
+@import './partials/footer.scss';
