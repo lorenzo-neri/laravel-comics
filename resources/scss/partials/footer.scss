@@ -1,0 +1,58 @@
+.dc-footerCont {
+    background-image: url('../../img/footer-bg.jpg');
+    background-size: cover;
+
+}
+
+footer {
+    min-height: 325px;
+}
+
+.dc-footerLinks {
+
+    .dc-bigLogo {
+        background-image: url('../../img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .dc-listContainer {
+
+        padding: 2rem 0;
+
+        margin-right: 2rem;
+
+        h5 {
+            font-weight: bold;
+        }
+
+        li a {
+            font-size: medium;
+            text-decoration: none;
+            color: $dc-secondary;
+
+            &:hover {
+                color: $dc-primary;
+            }
+        }
+    }
+
+}
+
+.dc-contacts {
+    padding: 1.5rem 0;
+    background-color: $dc-dark;
+
+    .dc-signUpBtn {
+        border: 3px solid $dc-primary;
+        border-radius: 0;
+        padding: 0.7rem 0.8rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    h4 {
+        color: $dc-primary;
+        font-weight: bold;
+    }
+}

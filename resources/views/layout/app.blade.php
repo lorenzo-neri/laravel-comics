@@ -20,11 +20,15 @@
 
 <body>
 
+    <!-- header -->
     @include('layout.partials.header')
 
     <main>
         @yield('content')
     </main>
+
+    <!-- footer -->
+    @include('layout.partials.footer')
 
 </body>
 
